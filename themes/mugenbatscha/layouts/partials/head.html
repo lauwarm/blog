@@ -7,12 +7,6 @@
     <meta name="description" content="Mugenbatschas personal Blog about Coding and Cylcing."/>
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    {{ $styles := resources.Get "css/main.css" | postCSS }}
-
-    {{ if .Site.IsServer }}
-      <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
-    {{ else }}
-      {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
-    {{ end }}
+    <link rel="stylesheet" href="/css/tailwind.css" >
+    <link rel="stylesheet" href="/css/style.css" >
 </head>
