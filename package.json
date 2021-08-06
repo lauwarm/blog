@@ -1,0 +1,70 @@
+{
+  "name": "blog-mugenbatscha.me",
+  "version": "1.0.0",
+  "description": "My Blog - Build with Hugo - Served by Ionos",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "acorn-node": "^1.8.2",
+    "anymatch": "^3.1.2",
+    "braces": "^3.0.2",
+    "color-string": "^1.6.0",
+    "fastq": "^1.11.1",
+    "fill-range": "^7.0.1",
+    "glob": "^7.1.7",
+    "import-fresh": "^3.3.0",
+    "inflight": "^1.0.6",
+    "js-tokens": "^4.0.0",
+    "json-parse-even-better-errors": "^2.3.1",
+    "jsonfile": "^6.1.0",
+    "lilconfig": "^2.0.3",
+    "lines-and-columns": "^1.1.6",
+    "lodash.toarray": "^4.4.0",
+    "merge2": "^1.4.1",
+    "micromatch": "^4.0.4",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.5",
+    "node-releases": "^1.1.73",
+    "normalize-path": "^3.0.0",
+    "once": "^1.4.0",
+    "parent-module": "^1.0.1",
+    "parse-json": "^5.2.0",
+    "path-is-absolute": "^1.0.1",
+    "path-parse": "^1.0.7",
+    "path-type": "^4.0.0",
+    "picomatch": "^2.3.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-selector-parser": "^6.0.6",
+    "queue-microtask": "^1.2.3",
+    "readdirp": "^3.6.0",
+    "resolve-from": "^4.0.0",
+    "reusify": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "run-parallel": "^1.2.0",
+    "simple-swizzle": "^0.2.2",
+    "supports-color": "^7.2.0",
+    "to-regex-range": "^5.0.1",
+    "universalify": "^2.0.0",
+    "util-deprecate": "^1.0.2",
+    "wrappy": "^1.0.2",
+    "xtend": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "scripts": {
+    "build": "postcss themes/mugenbatscha/static/css/style.css -o themes/mugenbatscha/static/css/tailwind.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauwarm/blog-mugenbatscha.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauwarm/blog-mugenbatscha.me/issues"
+  },
+  "homepage": "https://github.com/lauwarm/blog-mugenbatscha.me#readme"
+}
