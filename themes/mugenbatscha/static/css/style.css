@@ -124,7 +124,7 @@ body {
 }
   
 /* 48em = 768px */
-/*
+
 @media (min-width: 64em) {
   .header li {
     float: left;
@@ -141,7 +141,7 @@ body {
     display: none;
   }
 }
-*/
+
 .container-post {
   display: grid;
   grid-template-columns: 1fr 1fr;
