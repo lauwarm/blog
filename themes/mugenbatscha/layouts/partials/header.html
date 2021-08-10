@@ -12,12 +12,12 @@
         {{ end }}
     </div>-->
 
-    <a href="" class="logo">It's Mugenbatscha</a>
+    <a href="/" class="logo">Mugenbatscha</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn">
         <span class="navicon"></span>
     </label>
-    <ul class="menu flex justify-center">
+    <ul class="menu flex justify-center"> <!--flex-->
         {{ range .Site.Menus.main }}
         <li>
             <a href="{{ .URL }}">
@@ -25,7 +25,6 @@
             {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
             {{ $icon }}
             {{ end }}
-
             </a>
         </li>
         {{ end }}
@@ -36,7 +35,6 @@
             {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
             {{ $icon }}
             {{ end }}
-
             </a>
         </li>
         {{ end }}

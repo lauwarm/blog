@@ -27,36 +27,41 @@ theme = "mugenbatscha"
 #    url = "/"
 #    weight = 1
   [[menu.main]]
+    name = "About"
+    pre = ""
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
     name = "Posts"
     pre = "pen-tool"
     url = "/posts/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Tags"
     pre = "tag"
     url = "/tags/"
-    weight = 3
+    weight = 4
 
   [[menu.social]]
     name = "twitter"
     url = "https://twitter.com/"
     pre = "twitter"
-    weight = 4
+    weight = 5
 
   [[menu.social]]
     name = "instagram"
     url = "https://instagram.com/"
     pre = "instagram"
-    weight = 5
+    weight = 6
 
   [[menu.social]]
     name = "github"
     url = "https://github.com/"
     pre = "github"
-    weight = 6
+    weight = 7
 
   [[menu.social]]
     name = "twitch"
     url = "https://twitch.tv/"
     pre = "twitch"
-    weight = 6
+    weight = 8

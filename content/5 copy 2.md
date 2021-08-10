@@ -1,9 +1,0 @@
----
-title: "Post 5"
-date: 2021-08-06T11:41:14+02:00
-draft: false
-tags: ["foo", "bar"]
----
-
-# Heading
-This is a sample Post copy 2

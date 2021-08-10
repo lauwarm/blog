@@ -282,3 +282,12 @@ body {
       transform: translateY(25%) rotateX(-35deg);
   }
   */
+
+img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
