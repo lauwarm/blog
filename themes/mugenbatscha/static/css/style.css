@@ -143,9 +143,14 @@ body {
 }
 
 .container-post {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+}
+
+.container-image {
+  height: 30rem;
+}
+
+.container-text {
+  height: 30rem;
 }
 
 /* +++++ */
