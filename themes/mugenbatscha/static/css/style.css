@@ -143,14 +143,18 @@ body {
 }
 
 .container-post {
+  max-width: 96rem;
+  margin: 0 auto;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .container-image {
-  height: 30rem;
+  height: 24rem;
 }
 
 .container-text {
-  height: 30rem;
+  height: 12rem;
 }
 
 /* +++++ */

@@ -1,21 +1,19 @@
 {{ define "main" }}
-<main class="flex-1 overflow-y-auto p-5 mx-40">
+<main class=" overflow-y-auto p-5 mx-40">
   {{ range .Pages.ByPublishDate.Reverse }}
-  <div class="container-post grid grid-cols-2 my-7 ">
-    <div class="container-image h-96 rounded-l-lg rounded-r-lg" style="background-color:rgb(137, 184, 168); color: black;">
-      <a class="title" href="{{ .RelPermalink }}"><img class="cover-image rounded-l-lg rounded-r-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
+  <div class="container-post grid grid-cols-1 my-7 mx-32 " style="background-color: #80746b;">
+    <div class="container-image h-96 rounded-l-lg rounded-r-lg" style="color: black;">
+      <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-l-lg rounded-r-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
     </div>
     <div class="container-text h-96 rounded-r-lg" style="color: white;">
-      <br /> <br />
+      <br />
       {{ partial "metadata.html" . }}
-      <br /> <br />
+      <br />
       <a class="title flex justify-center text-5xl" href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
-      <br /> <br />
+      <br />
       <a class="underline flex justify-center" href="{{ .RelPermalink }}">Read More</a>
     </div>
-
-    </div>
+  </div>
   {{ end }}
-
   </main>
 {{ end }}

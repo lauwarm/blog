@@ -1,17 +1,4 @@
 <header class="header <!--bg-gray-700--> text-white">
-<!--    <div class="flex place-items-start">
-        {{ range .Site.Menus.main }}
-        <a class="mx-2" href="{{ .URL }}">
-        {{ if .Pre }}
-        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-        {{ $icon }}
-        {{ end }}
-        {{ $text := print .Name | safeHTML }}
-        {{ $text }}
-        </a>
-        {{ end }}
-    </div>-->
-
     <a href="/" class="logo">Mugenbatscha</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn">
@@ -39,5 +26,4 @@
         </li>
         {{ end }}
     </ul>
-
 </header>
