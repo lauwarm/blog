@@ -5,13 +5,14 @@
     <div class="container-image h-96 rounded-l-lg rounded-r-lg" style="color: black;">
       <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-l-lg rounded-r-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
     </div>
-    <div class="container-text h-96 rounded-r-lg" style="color: white;">
+    <div class="container-text rounded-r-lg" style="color: white;">
       <br />
       {{ partial "metadata.html" . }}
       <br />
       <a class="container-text-title flex justify-center" href="{{ .RelPermalink }}">{{ .Title }}</a>
       <br />
       <a class="underline flex justify-center" href="{{ .RelPermalink }}">Read More</a>
+      <br />
     </div>
   </div>
   {{ end }}

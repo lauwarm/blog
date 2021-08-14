@@ -139,8 +139,9 @@ body {
 }
 
 .container-text {
-  height: 12rem;
+  min-height: max-content;
   clear: both;
+  text-align: center;
 }
 
 @media (min-width: 64em) { /* 1em = 16px */
