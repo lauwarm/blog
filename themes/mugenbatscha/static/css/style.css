@@ -42,10 +42,10 @@ body {
 }
   
 .header .logo {
-  display: block;
+  display: inline-block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-decoration: none;
 }
   
@@ -63,7 +63,7 @@ body {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 31px 20px;
   position: relative;
   user-select: none;
 }
@@ -121,10 +121,15 @@ body {
   top: 0;
 }
 
+/* header.html -  */
+
 /* index.html - DIVs containing Images and Text */
 .container-main {
   margin-right: 10rem;
   margin-left: 10rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  overflow-y: auto;
 }
 
 .container-post {
@@ -132,6 +137,7 @@ body {
   margin: 0 auto;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+  background-color: #80746b;
 }
 
 .container-image {
