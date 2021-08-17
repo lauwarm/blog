@@ -1,25 +1,29 @@
 <header class="header <!--bg-gray-700--> text-white">
     <a href="/" class="logo">Mugenbatscha</a>
-    <span class="" onclick="openNav()">open</span>
-    <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content  ">
-            {{ range .Site.Menus.main }}
-            <a class="justify-center" href="{{ .URL }}">
-                {{ if .Pre }}
-                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-                {{ $icon }}
-                {{ end }}
-                </a>
-                {{ end }}
-                {{ range .Site.Menus.social }}
-                <a href="{{ .URL }}" target="_blank">
-                    {{ if .Pre }}
-                    {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-                    {{ $icon }}
-                    {{ end }}
-                </a>
-                {{ end }}
-</div>
-</div>
-</header>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+    </label>
+    <ul class="menu flex justify-center"> <!--flex-->
+        {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}">
+            {{ if .Pre }}
+            {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+            {{ $icon }}
+            {{ end }}
+            </a>
+        </li>
+        {{ end }}
+        {{ range .Site.Menus.social }}
+        <li>
+            <a href="{{ .URL }}" target="_blank">
+            {{ if .Pre }}
+            {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+            {{ $icon }}
+            {{ end }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+  </header>
