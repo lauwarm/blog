@@ -15,7 +15,6 @@ body {
 /* header */
 .header {
   padding-top: 3vh;
-  padding-bottom: 3vh;
   padding-right: 3vw;
   padding-left: 3vw;
   pointer-events: auto;
@@ -42,10 +41,11 @@ body {
 }
   
 .header .logo {
-  display: inline-block;
+  display: block;
   float: left;
   font-size: 2em;
   text-decoration: none;
+  padding-left: 23px;
 }
  .fullscreen-menu {
   margin: 0;
@@ -59,7 +59,7 @@ body {
   clear: both;
   max-height: 0;
   transition: max-height .2s linear;
-  padding-top: 20px;
+
 }
   
 /* menu icon */
@@ -68,7 +68,7 @@ body {
   cursor: pointer;
   display: block;
   float: right;
-  padding: 31px 20px;
+  padding: 23px;
   position: relative;
   user-select: none;
 }
@@ -160,8 +160,19 @@ body {
   line-height: 1;
 }
 
+/* footer.html */
+.footer-author-copyright {
+  font-size: smaller;
+}
+.footer-made-theme {
+  font-size: x-small;
+}
+
 @media (min-width: 52em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
+  .header {
+    padding-bottom: 3vh;
+  }
   .header li {
     float: left;
   }

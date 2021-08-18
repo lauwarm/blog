@@ -1,5 +1,5 @@
 <header class="header <!--bg-gray-700--> text-white">
-    <a href="/" class="logo">Mugenbatscha</a>
+    <a href="/" class="logo">mugenbatscha</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn">
         <span class="navicon"></span>
@@ -15,6 +15,8 @@
             </a>
         </li>
         {{ end }}
+    </ul>
+    <ul class="menu flex justify-center">
         {{ range .Site.Menus.social }}
         <li>
             <a href="{{ .URL }}" target="_blank">

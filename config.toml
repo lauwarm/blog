@@ -31,27 +31,32 @@ theme = "mugenbatscha"
     pre = "tag"
     url = "/tags/"
     weight = 2
+  [[menu.main]]
+    name = "RSS"
+    pre = "rss"
+    url = "/index.xml"
+    weight = 3
 
   [[menu.social]]
     name = "twitter"
     url = "https://twitter.com/mugenbatscha"
     pre = "twitter"
-    weight = 3
+    weight = 4
 
   [[menu.social]]
     name = "instagram"
     url = "https://instagram.com/mugenbatscha"
     pre = "instagram"
-    weight = 4
+    weight = 5
 
   [[menu.social]]
     name = "github"
     url = "https://github.com/lauwarm"
     pre = "github"
-    weight = 5
+    weight = 6
 
   [[menu.social]]
     name = "twitch"
     url = "https://twitch.tv/mugenbatscha"
     pre = "twitch"
-    weight = 6
+    weight = 7
