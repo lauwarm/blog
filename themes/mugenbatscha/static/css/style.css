@@ -11,6 +11,59 @@ body {
   --tw-text-opacity: 1;
   color: rgba(249, 250, 251, var(--tw-text-opacity));
 }
+h1 { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 { 
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h5 { 
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h6 { 
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
 
 /* header */
 .header {
@@ -168,6 +221,23 @@ body {
   font-size: x-small;
 }
 
+/* single.html */
+.section {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+.single-heading {
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+.article-content [
+  margin: 0 auto;
+  max-width: 100%;
+]
+
 @media (min-width: 52em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
   .header {
@@ -191,6 +261,14 @@ body {
   /* header scaling*/
   .header .menu {
     padding-top: 0px;
+  }
+
+  /* single.html scaling*/
+  .section {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    max-width: 72rem;
+    margin: 0 auto;
   }
 
   /* List of Posts Scaling*/
