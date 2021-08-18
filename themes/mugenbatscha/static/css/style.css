@@ -233,10 +233,10 @@ h6 {
   max-width: 100%;
   text-align: center;
 }
-.article-content [
+.article-content {
   margin: 0 auto;
   max-width: 100%;
-]
+}
 
 @media (min-width: 52em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
