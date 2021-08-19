@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main class="container-main">
   {{ range .Pages.ByPublishDate.Reverse }}
-  <div class="container-post grid grid-cols-1">
+  <div class="container-post grid grid-cols-1 rounded-lg">
     <div class="container-image h-96 rounded-l-lg rounded-r-lg" style="color: black;">
       <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-l-lg rounded-r-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
     </div>
-    <div class="container-text rounded-r-lg" style="color: white;">
+    <div class="container-text rounded-r-lg">
       <br />
       {{ partial "metadata.html" . }}
       <br />

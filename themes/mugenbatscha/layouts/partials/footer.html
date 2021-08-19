@@ -1,10 +1,10 @@
-<footer class="footer py-5 text-center text-white">
-    <p class="footer-author-copyright">
+<footer class="footer py-5 text-center">
+    <p class="text-sm" style="color: #ddb9a6;">
         &copy; {{ now.Format "2006" }} 
         <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>
         {{ .Site.Params.footerCopyright | safeHTML }}
     </p>
-    <p class="footer-made-theme">
+    <p class="text-xs" style="color: #ddb9a6;">
         Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 
         &#183; Theme <a href="https://github.com/" target="_blank" rel="noopener">mugenbatscha</a>
     </p>

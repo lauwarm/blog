@@ -7,19 +7,14 @@ body {
   display: flex;
   flex-direction: column;
   --tw-bg-opacity: 1;
-  background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+/*  background-color: rgba(107, 114, 128, var(--tw-bg-opacity)); */
+  background-color: #f6eeea;
   --tw-text-opacity: 1;
-  color: rgba(249, 250, 251, var(--tw-text-opacity));
+/*  color: rgba(249, 250, 251, var(--tw-text-opacity)) !important; */
+padding-left: 10px;
+padding-right: 10px;
 }
-h1 { 
-  display: block;
-  font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}
+
 h2 {
   display: block;
   font-size: 1.5em;
@@ -98,7 +93,7 @@ h6 {
   float: left;
   font-size: 2em;
   text-decoration: none;
-  padding-left: 23px;
+ /* padding-left: 23px; */
 }
  .fullscreen-menu {
   margin: 0;
@@ -124,10 +119,11 @@ h6 {
   padding: 23px;
   position: relative;
   user-select: none;
+  padding-right: 3px;
 }
   
 .header .menu-icon .navicon {
-  background: #fff;
+  background: #000;
   display: block;
   height: 2px;
   position: relative;
@@ -136,7 +132,7 @@ h6 {
 }
   
 .header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
-  background: #fff;
+  background: #000;
   content: '';
   display: block;
   height: 100%;
@@ -194,7 +190,7 @@ h6 {
   margin: 0 auto;
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
-  background-color: #80746b;
+  background-color: #ddb9a6;
 }
 
 .container-image {
@@ -227,6 +223,7 @@ h6 {
   margin-bottom: 1.75rem;
   padding-right: 3vw;
   padding-left: 3vw;
+  padding-top: 20px;
 }
 .single-heading {
   margin: 0 auto;
@@ -284,7 +281,7 @@ h6 {
     margin: 0 auto;
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
-    background-color: #80746b;
+    background-color: #ddb9a6;
   }
   .container-image {
     height: 24rem;
@@ -355,4 +352,8 @@ img {
   top: 15px;
   right: 35px;
   }
+}
+
+blockquote {
+  background: #eaf2f6;
 }

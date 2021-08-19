@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="flex-1 overflow-y-auto p-5 mx-40">
   {{ range .Pages.ByPublishDate.Reverse }}
-  <div class="grid grid-cols-2 my-7 ">
+  <div class="grid grid-cols-2 my-7">
     <div class="container-image h-60 rounded-l-lg" style="background-color:aquamarine; color: black;">
       <a class="title" href="{{ .RelPermalink }}">{{ with .Resources.ByType "image" }} {{ end }}</a>
     </div>
