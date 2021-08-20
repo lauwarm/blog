@@ -15,6 +15,24 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
+h5 {
+  color: #111827;
+  font-weight: 600;
+  font-size: 0.75em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+h6 {
+  color: #111827;
+  font-weight: 600;
+  font-size: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+/*
 h2 {
   display: block;
   font-size: 1.5em;
@@ -59,13 +77,13 @@ h6 {
   margin-right: 0;
   font-weight: bold;
 }
-
+*/
 /* header */
 .header {
-  padding-top: 3vh;
+/*  padding-top: 3vh;
   padding-right: 3vw;
   padding-left: 3vw;
-  pointer-events: auto;
+*/  pointer-events: auto;
   width: 100%;
   z-index: 3;
   position: relative;
@@ -235,6 +253,7 @@ h6 {
   max-width: 100%;
 }
 
+
 @media (min-width: 52em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
   .header {
@@ -261,13 +280,14 @@ h6 {
   }
 
   /* single.html scaling*/
+  /*
   .section {
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
     max-width: 72rem;
     margin: 0 auto;
   }
-
+*/
   /* List of Posts Scaling*/
   .container-main {
     margin-right: 10rem;
@@ -291,6 +311,10 @@ h6 {
     min-height: max-content;
     clear: both;
     text-align: center;
+  }
+
+  .single-article {
+    max-width: 72rem !important;
   }
 }
 
@@ -356,4 +380,13 @@ img {
 
 blockquote {
   background: #eaf2f6;
+}
+
+/* .prose overwriting */
+.prose > ul > li > :first-child {
+  margin-top: 0;
+}
+
+.prose > ul > li > :last-child {
+  margin-bottom: 0;
 }
