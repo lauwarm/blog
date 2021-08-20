@@ -35,28 +35,33 @@ theme = "mugenbatscha"
     name = "RSS"
     pre = "rss"
     url = "/index.xml"
+    weight = 4
+  [[menu.main]]
+    name = "Impressum Placeholder"
+    pre = "info"
+    url = "https://example.org"
     weight = 3
 
   [[menu.social]]
     name = "twitter"
     url = "https://twitter.com/mugenbatscha"
     pre = "twitter"
-    weight = 4
+    weight = 6
 
   [[menu.social]]
     name = "instagram"
     url = "https://instagram.com/mugenbatscha"
     pre = "instagram"
-    weight = 5
+    weight = 7
 
   [[menu.social]]
     name = "github"
     url = "https://github.com/lauwarm"
     pre = "github"
-    weight = 6
+    weight = 8
 
   [[menu.social]]
     name = "twitch"
     url = "https://twitch.tv/mugenbatscha"
     pre = "twitch"
-    weight = 7
+    weight = 9
