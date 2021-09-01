@@ -155,9 +155,9 @@ h6 {
 */
 .container-post {
   /*max-width: 100%;*/
-  margin: 0 auto;
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  /*margin: 0 auto;*/ /*???*/
+  /*margin-top: 1.75rem;
+  margin-bottom: 1.75rem;*/
   background-color: #ddb9a6;
 }
 .container-image {
