@@ -201,7 +201,7 @@ h6 {
 }
 
 
-@media (min-width: 54em) { /* 1em = 16px */ /* desktop scaling*/
+@media (min-width: 60em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
   .header {
     width: 100%;
