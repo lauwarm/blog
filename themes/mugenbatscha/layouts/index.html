@@ -5,7 +5,7 @@
     <div class="h-96 w-full container-image">
       <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-t-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
     </div>
-    <div class="container-text rounded-r-lg">
+    <div class="w-full text-center clear-both container-text rounded-r-lg">
       <br />
       {{ partial "metadata.html" . }}
       <br />
