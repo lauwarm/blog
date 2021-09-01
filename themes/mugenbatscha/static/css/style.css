@@ -4,17 +4,15 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  --tw-bg-opacity: 1;
-/*  background-color: rgba(107, 114, 128, var(--tw-bg-opacity)); */
-/*  color: rgba(249, 250, 251, var(--tw-text-opacity)) !important; */
   background-color: #f6eeea;
-  --tw-text-opacity: 1;
-/*
-padding-left: 10px;
-padding-right: 10px;
-*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*--tw-bg-opacity: 1;*/
+  /*background-color: rgba(107, 114, 128, var(--tw-bg-opacity));*/
+  /*color: rgba(249, 250, 251, var(--tw-text-opacity)) !important;*/
+  /*--tw-text-opacity: 1;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
 }
 
 /*
@@ -236,7 +234,7 @@ h6 {
     max-width: 72rem;
     margin: 0 auto;
   }
-*/
+  */
 
   /* List of Posts Scaling*/
   .container-main {
