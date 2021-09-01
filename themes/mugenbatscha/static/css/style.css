@@ -160,10 +160,12 @@ h6 {
   margin-bottom: 1.75rem;*/
   background-color: #ddb9a6;
 }
+/*
 .container-image {
   height: 24rem;
   width: 100%;
 }
+*/
 .container-text {
   min-height: max-content;
   clear: both;
