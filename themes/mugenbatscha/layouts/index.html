@@ -1,15 +1,15 @@
 {{ define "main" }}
 <main class="m-0 px-4 overflow-y-auto container-main">
   {{ range .Pages.ByPublishDate.Reverse }}
-  <div class="container-post grid grid-cols-1 rounded-lg">
-    <div class="container-image h-96 rounded-l-lg rounded-r-lg" style="color: black;">
-      <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-l-lg rounded-r-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
+  <div class="max-w-full my-7 grid grid-cols-1 rounded-lg container-post">
+    <div class="h-96 w-full container-image">
+      <a class="title" href="{{ .RelPermalink }}"><img loading="lazy" class="cover-image rounded-t-lg" src='{{ with .Params.image }}{{ . }}{{ end }}'></a>
     </div>
-    <div class="container-text rounded-r-lg">
+    <div class="w-full text-center clear-both rounded-r-lg container-text">
       <br />
       {{ partial "metadata.html" . }}
       <br />
-      <a class="container-text-title flex justify-center" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a class="text-3xl flex justify-center container-text-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
       <br />
       <a class="underline flex justify-center" href="{{ .RelPermalink }}">Read More</a>
       <br />

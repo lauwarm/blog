@@ -4,17 +4,15 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  --tw-bg-opacity: 1;
-/*  background-color: rgba(107, 114, 128, var(--tw-bg-opacity)); */
-/*  color: rgba(249, 250, 251, var(--tw-text-opacity)) !important; */
   background-color: #f6eeea;
-  --tw-text-opacity: 1;
-/*
-padding-left: 10px;
-padding-right: 10px;
-*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*--tw-bg-opacity: 1;*/
+  /*background-color: rgba(107, 114, 128, var(--tw-bg-opacity));*/
+  /*color: rgba(249, 250, 251, var(--tw-text-opacity)) !important;*/
+  /*--tw-text-opacity: 1;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
 }
 
 /*
@@ -154,25 +152,26 @@ h6 {
 }
 */
 .container-post {
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  /*max-width: 100%;*/
+  /*margin: 0 auto;*/ /*???*/
+  /*margin-top: 1.75rem;
+  margin-bottom: 1.75rem;*/
   background-color: #ddb9a6;
 }
 .container-image {
-  height: 24rem;
-  width: 100%;
+  /*height: 24rem;
+  width: 100%;*/
+  color: black;
 }
 .container-text {
-  min-height: max-content;
-  clear: both;
-  text-align: center;
-  width: 100%;
+  /*min-height: max-content;*/ /*???*/
+  /*clear: both;*/
+  /*text-align: center;*/
+  /*width: 100%;*/
 }
 .container-text-title {
-  font-size: 2rem;
-  line-height: 1;
+  /*font-size: 2rem;
+  line-height: 1;*/
 }
 
 /* footer.html */
@@ -185,34 +184,28 @@ h6 {
 
 /* single.html */
 .section {
-  margin-top: 1.75rem;
+  /*margin-top: 1.75rem;
   margin-bottom: 1.75rem;
-  padding-right: 3vw;
-  padding-left: 3vw;
-  padding-top: 20px;
+  padding-right: 16px;
+  padding-left: 16px;*/
 }
 .single-heading {
-  margin: 0 auto;
+  /*margin: 0 auto;
   max-width: 100%;
-  text-align: center;
+  text-align: center;*/
 }
+/*
 .article-content {
   margin: 0 auto;
   max-width: 100%;
-}
+}*/
 
 
-@media (min-width: 52em) { /* 1em = 16px */ /* desktop scaling*/
+@media (min-width: 60em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
-  /*
   .header {
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-    padding-right: 3vw;
-    padding-left: 3vw;
     width: 100%;
   }
-  */
   .header li {
     float: left;
   }
@@ -241,7 +234,7 @@ h6 {
     max-width: 72rem;
     margin: 0 auto;
   }
-*/
+  */
 
   /* List of Posts Scaling*/
   .container-main {
@@ -329,6 +322,7 @@ img {
   font-size: 60px;
 }
 */
+/*
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -336,7 +330,7 @@ img {
   top: 15px;
   right: 35px;
   }
-}
+}*/
 
 blockquote {
   background: #eaf2f6;
