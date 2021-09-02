@@ -190,14 +190,15 @@ h6 {
   padding-left: 16px;*/
 }
 .single-heading {
-  margin: 0 auto;
+  /*margin: 0 auto;
   max-width: 100%;
-  text-align: center;
+  text-align: center;*/
 }
+/*
 .article-content {
   margin: 0 auto;
   max-width: 100%;
-}
+}*/
 
 
 @media (min-width: 60em) { /* 1em = 16px */ /* desktop scaling*/
