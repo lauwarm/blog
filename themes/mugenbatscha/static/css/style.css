@@ -184,11 +184,10 @@ h6 {
 
 /* single.html */
 .section {
-  margin-top: 1.75rem;
+  /*margin-top: 1.75rem;
   margin-bottom: 1.75rem;
-  padding-right: 3vw;
-  padding-left: 3vw;
-  padding-top: 20px;
+  padding-right: 16px;
+  padding-left: 16px;*/
 }
 .single-heading {
   margin: 0 auto;
