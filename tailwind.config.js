@@ -1,13 +1,19 @@
 // tailwind.config.js
 module.exports = {
     future: {},
-    purge: [
-        "public/index.html"
-    ],
+    purge: {
+        enabled: true,
+        content: [
+            "./layouts/**/*.html",
+            "./**/*.html",
+        ],
+    },
     darkMode: false, // or 'media' or 'class'
     theme: {
-    extend: {},
+        extend: {},
     },
-    variants: {},
+    variants: {
+        extend: {},
+    },
     plugins: [],
 }

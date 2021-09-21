@@ -49,9 +49,9 @@
     "xtend": "^4.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.15"
   },
   "scripts": {
     "build": "postcss themes/mugenbatscha/static/css/style.css -o themes/mugenbatscha/static/css/tailwind.css --minify",
