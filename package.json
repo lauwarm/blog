@@ -9,6 +9,7 @@
     "braces": "^3.0.2",
     "color-string": "^1.6.0",
     "fastq": "^1.11.1",
+    "feather-icons": "^4.28.0",
     "fill-range": "^7.0.1",
     "glob": "^7.1.7",
     "highlight.js": "^11.2.0",
