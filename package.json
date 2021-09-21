@@ -54,8 +54,11 @@
     "tailwindcss": "^2.2.15"
   },
   "scripts": {
-    "build": "postcss themes/mugenbatscha/static/css/style.css -o themes/mugenbatscha/static/css/tailwind.css --minify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run hugo:build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "hugo server -D",
+    "server-test": "hugo server -D --bind 0.0.0.0 --noHTTPCache",
+    "hugo:build": "hugo -d build"
   },
   "repository": {
     "type": "git",
