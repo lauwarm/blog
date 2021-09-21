@@ -58,7 +58,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "hugo server -D",
     "server-test": "hugo server -D --bind 0.0.0.0 --noHTTPCache",
-    "hugo:build": "hugo -d build"
+    "hugo:build": "hugo --gc --minify -b ${{ steps.project.outputs.site-url }}"
   },
   "repository": {
     "type": "git",
