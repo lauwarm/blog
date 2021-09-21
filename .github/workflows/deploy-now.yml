@@ -1,0 +1,51 @@
+name: Deploy Now
+
+on: [push]
+
+jobs:
+  deploy-now:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch project data
+        uses: ionos-deploy-now/retrieve-project-info-action@v1
+        id: project
+        with:
+          api-key: ${{ secrets.IONOS_API_KEY }}
+          project: ca922803-fb4f-4ee7-81e3-3d57b90d77c5
+          service-host: api-eu.ionos.space
+      - name: checkout
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Setup Hugo
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.3'
+          extended: true
+      - name: Setup Node.js 14.x
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Prepare project environment
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        run: npm ci
+      - name: Build project
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        run: npm run build
+        env:
+          SITE_URL: ${{ steps.project.outputs.site-url }}
+          CI: true
+      - name: Deploy build
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+        uses: ionos-deploy-now/deploy-to-ionos-action@v1
+        with:
+          api-key: ${{ secrets.IONOS_API_KEY }}
+          remote-host: ${{ steps.project.outputs.remote-host }}
+          dist-folder: dist
+          project: ca922803-fb4f-4ee7-81e3-3d57b90d77c5
+          storage-quota: ${{ steps.project.outputs.storage-quota }}
+          branch-id: ${{ steps.project.outputs.branch-id }}
+          service-host: api-eu.ionos.space
