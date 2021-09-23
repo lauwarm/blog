@@ -136,16 +136,6 @@ h6 {
 }
 
 /* index.html - DIVs containing Images and Text */
-/*
-.container-main {
-  margin-right: 0rem;
-  margin-left: 0rem;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  overflow-y: auto;
-  
-}
-*/
 .container-post {
   /*max-width: 100%;*/
   /*margin: 0 auto;*/ /*???*/
