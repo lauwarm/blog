@@ -137,8 +137,6 @@ body {
 
   /* List of Posts Scaling*/
   .container-main {
-    margin-right: 10rem;
-    margin-left: 10rem;
     padding-left: 3vw;
     padding-right: 3vw;
     overflow-y: auto;
@@ -163,8 +161,6 @@ body {
   /*Single Post Scaling*/
   .single-article {
     max-width: 60rem !important;
-    margin-right: 10rem;
-    margin-left: 10rem;
   }
 }
 
