@@ -133,17 +133,21 @@ body {
 }
 
 /* single.html */
+/*
 .section {
-  /*margin-top: 1.75rem;
+  margin-top: 1.75rem;
   margin-bottom: 1.75rem;
   padding-right: 16px;
-  padding-left: 16px;*/
+  padding-left: 16px;
 }
+*/
+/*
 .single-heading {
   /*margin: 0 auto;
   max-width: 100%;
-  text-align: center;*/
+  text-align: center;
 }
+*/
 
 @media (min-width: 60em) { /* 1em = 16px */ /* desktop scaling*/
   /* Header and Menu Scaling*/
@@ -198,6 +202,7 @@ body {
     text-align: center;
   }
 
+  /*Single Post Scaling*/
   .single-article {
     max-width: 60rem !important;
   }
