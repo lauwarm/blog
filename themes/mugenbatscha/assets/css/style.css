@@ -163,6 +163,8 @@ body {
   /*Single Post Scaling*/
   .single-article {
     max-width: 60rem !important;
+    margin-right: 10rem;
+    margin-left: 10rem;
   }
 }
 
