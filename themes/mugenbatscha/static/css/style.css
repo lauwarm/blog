@@ -151,10 +151,10 @@ body {
 
   /* List of Posts Scaling*/
   .container-main {
-    padding-left: 3vw;
+/*    padding-left: 3vw;
     padding-right: 3vw;
     overflow-y: auto;
-  }
+*/  }
   .container-post {
     max-width: 60rem;
     margin: 0 auto;
