@@ -62,7 +62,7 @@ Now we need to configure the reverse Proxy.
         - Protocol: HTTP
         - Hostname: plex.home.arpa
         - Port: 80
-    -Destination
+    - Destination
         - Protocol: HTTP
         - Hostname: 192.168.0.10
         - Port 32400
