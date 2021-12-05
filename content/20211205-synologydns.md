@@ -3,7 +3,7 @@ title: "Synology, DNS, Reverse Proxy for *.home.arpa"
 image: ""
 date: 2021-12-05T16:21:45+01:00
 draft: false
-tags: ["nas, synology, dns, reverse proxy"]
+tags: ["nas", "synology", "dns", "reverse proxy"]
 ---
 
 ## Pre
@@ -13,7 +13,7 @@ tags: ["nas, synology, dns, reverse proxy"]
 
 ## Domain
 - We need a Domain
-   - *home.arpa* is a valid usage for Home User
+   - *home.arpa* is the Domain we are using for Home purposes - https://datatracker.ietf.org/doc/html/rfc8375
 
 ## DNS
 - DNS Server
