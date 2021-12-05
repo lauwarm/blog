@@ -20,7 +20,7 @@ tags: ["nas", "synology", "dns", "reverse proxy"]
     - Zones -> Create -> Master zone
         - Domain type: Forward zone
         - Domain name: home.arpa
-        - Master DNS server: Synology IP Adress
+        - Master DNS server: Synology IP Address
         - Serial format: Integer
         - Limit zone transer: check
         - Limit source IP service: uncheck
