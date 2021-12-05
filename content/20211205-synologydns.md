@@ -1,12 +1,10 @@
 ---
-title: "Synology, DNS, Reverse Proxy - *.home.arpa"
+title: "Synology, DNS, Reverse Proxy for *.home.arpa"
 image: ""
 date: 2021-12-05T16:21:45+01:00
 draft: false
 tags: ["nas, synology, dns, reverse proxy"]
 ---
-
-# Synology, DNS and reverse Proxy for *.home.arpa
 
 ## Pre
 - Synology DSM 7.0.1-42218
