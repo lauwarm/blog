@@ -2,7 +2,7 @@
 title: "Synology, DNS, Reverse Proxy - *.home.arpa"
 image: ""
 date: 2021-12-05T16:21:45+01:00
-draft: true
+draft: false
 tags: ["nas, synology, dns, reverse proxy"]
 ---
 
