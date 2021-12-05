@@ -50,7 +50,7 @@ theme = "mugenbatscha"
 
   [[menu.social]]
     name = "instagram"
-    url = "https://instagram.com/mugenbatscha"
+    url = "https://www.instagram.com/mugenbatscha/"
     pre = "instagram"
     weight = 7
 
