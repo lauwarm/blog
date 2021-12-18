@@ -3,12 +3,13 @@ title: "Raspberry Pi 3B+ and Ubuntu Server 20.04.3 LTS"
 image: ""
 date: 2021-12-18T11:55:34+01:00
 draft: true
-tags: ["raspberry pi", "ubuntu", "server", "lts", "ssh"]
+tags: ["raspberry pi", "ubuntu", "server", "lts", "ssh", "firewall", "putty"]
 ---
 
+This Post is more of a stub. Using different Sources to get a Raspberry Pi 3B+ setup as a Ubuntu Server to install PiHole.
 
-First we get the official [Ubuntu Server](https://ubuntu.com/download/raspberry-pi) 20.04.3 LTS Image.
-They also have a Tutorial to get you started: [How to install Ubuntu Server on your Raspberry Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). We need a programm to write the image to the microSD Card. I will be using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
+I will be using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to download [Ubuntu Server 20.04.3 LTS](https://ubuntu.com/download/raspberry-pi) and install it on the microSD Card. 
+The Ubuntu Website has a Tutorial to get you started: [How to install Ubuntu Server on your Raspberry Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview). Especially helpful if you require Wifi instead of Ethernet. 
 
 ## Information used in this Post
 - [My first 5 Minutes On A Server; Or, Essential Security for Linux Servers](https://sollove.com/2013/03/03/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers/)
