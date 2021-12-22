@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Pi and PiHole"
 image: ""
-date: 2021-12-17T15:24:21+01:00
+date: 2021-12-19T15:24:21+01:00
 draft: true
 tags: ["raspberry pi", "dns", "pihole", "unbound"]
 ---
