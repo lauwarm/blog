@@ -2,7 +2,7 @@
 title: "Raspberry Pi 3B+ and Ubuntu Server 20.04.3 LTS"
 image: ""
 date: 2021-12-18T11:55:34+01:00
-draft: true
+draft: false
 tags: ["raspberry pi", "ubuntu", "server", "lts", "ssh", "firewall", "putty"]
 ---
 
