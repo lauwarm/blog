@@ -1,6 +1,6 @@
 baseURL = "https://mugenbatscha.me"
 languageCode = "en-us"
-title = "My Blog"
+title = "mugenbatscha"
 theme = "mugenbatscha"
 
 [taxonomies]
