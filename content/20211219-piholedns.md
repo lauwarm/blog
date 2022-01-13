@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi and Pi-hole and Unbound"
+title: "Raspberry Pi, Pi-hole and Unbound"
 image: ""
 date: 2021-12-19T15:24:21+01:00
 draft: false
