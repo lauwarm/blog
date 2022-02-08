@@ -2,7 +2,7 @@
 title: "Install Telegraf on Raspberry Pi"
 image: ""
 date: 2021-12-22T13:32:21+01:00
-draft: true
+draft: false
 tags: ["raspberry pi", "telegraf", "monitoring", "grafana"]
 ---
 
