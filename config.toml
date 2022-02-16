@@ -2,6 +2,7 @@ baseURL = "https://mugenbatscha.me"
 languageCode = "en-us"
 title = "mugenbatscha"
 theme = "mugenbatscha"
+enableRobotsTXT = true
 
 [taxonomies]
   tag = "tags"
