@@ -2,7 +2,7 @@
 title: "Using Dev Container to switch between Computers"
 image: ""
 date: 2022-02-18T17:34:30Z
-draft: true
+draft: false
 tags: ["dev container", "blog", "docker"]
 ---
 
