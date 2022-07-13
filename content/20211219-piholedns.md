@@ -9,6 +9,7 @@ tags: ["raspberry pi", "dns", "pihole", "unbound"]
 Setting up a Raspberry Pi 3B+ with Pi-hole and Unbound to serve as our local DNS Server.
 
 What I am trying to achive:
+
 - Install Pi-hole and Unbound
 - Configure Pi-hole and Unbound as our own upstream DNS Server
 - Realise that not every Device respects our DNS Server
@@ -16,6 +17,7 @@ What I am trying to achive:
 - Reroute most DNS traffic through Pi-hole with the help of a Firewall
 
 ## Information used in this Post
+
 - [unlocator - How to Block Google DNS on Fritz Box](https://support.unlocator.com/article/204-how-to-block-google-dns-on-fritz-box)
 - [derekseaman - Redirect hard coded DNS](https://www.derekseaman.com/2019/10/redirect-hard-coded-dns-to-pi-hole-using-ubiquiti-edgerouter.html)
 - [scotthelme - Securing DNS](https://scotthelme.co.uk/securing-dns-across-all-of-my-devices-with-pihole-dns-over-https-1-1-1-1/)
@@ -25,27 +27,30 @@ What I am trying to achive:
 - [pi-hole - Unbound](https://docs.pi-hole.net/guides/dns/unbound/)
 - [netmeister - DoH, DoT](https://www.netmeister.org/blog/doh-dot-dnssec.html)
 
-
 ## Install Pi-hole
-Pretty simple. One Line to auto install [PiHole](https://github.com/pi-hole/pi-hole/#one-step-automated-install) 
+
+Pretty simple. One Line to auto install [PiHole](https://github.com/pi-hole/pi-hole/#one-step-automated-install)
+
 ```bash
 curl -sSL https://install.pi-hole.net | bash
 ```
 
-
 ## Install Unbound
+
 ```bash
 sudo apt install unbound
 ```
 
-
 ## Configure Unbound
+
 Create config file:
+
 ```bash
 sudo vi /etc/unbound/unbound.conf.d/pi-hole.conf
 ```
 
 Add content:
+
 ```bash
 server:
     # logfile: "/var/log/unbound/unbound.log"
@@ -86,27 +91,31 @@ server:
 ```
 
 Restart Service:
+
 ```bash
 sudo service unbound restart
 ```
 
 Unbound should now be able to perform DNS resolving:
+
 ```bash
 dig pi-hole.net @127.0.0.1 -p 5335
 ```
 
-
 ## Configure Pi-hole
+
 Under _Settings_ navigate to _DNS_.
 
 We add our unbound DNS Server:
-```
+
+```bash
 Custom 1 (IPv4): 127.0.0.1#5335
 ```
+
 We can uncheck Google upstream DNS Servers.
 
-
 ## Hard coded DNS, DoT, DoH and Firewalls
+
 A Device might have it's DNS Server hard coded. Or it might use DNS over TLS. With a Firewall we can force the query to still be resolved by Pi-hole. We need to redirect all outgoing TCP and UDP traffic to Pi-hole.
 
 DoH masks DNS traffic by using HTTPS. Currently the approach is to block this kind of traffic by using an IP List from Github.
