@@ -1,6 +1,6 @@
 ---
 title: "All of the Markdown"
-image: "images/posts/20210810-allOfTheMarkdown/1.jpg"
+image: "images/posts/20210810-allOfTheMarkdown/1.webp"
 date: 2021-08-10T17:55:39+02:00
 draft: false
 tags: ["post"]
@@ -15,7 +15,7 @@ This is a sample Post copy 2
 [1]: http://www.quotedb.com/quotes/2112
 
 
-![image alt text](/images/posts/20210810-allOfTheMarkdown/1.jpg)
+![image alt text](/images/posts/20210810-allOfTheMarkdown/1.webp)
 
 Lorem ipsum dolor sit amet, consectetur...
 
