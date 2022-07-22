@@ -51,10 +51,10 @@
     "xtend": "^4.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.15"
+    "tailwindcss": "^3.1.6"
   },
   "scripts": {
     "build": "npm run hugo:build",
