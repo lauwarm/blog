@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.217.4/containers/hugo
 {
-	"name": "mugenbatscha.me",
+	"name": "blog.mugenbatscha.me",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
@@ -12,15 +12,15 @@
 			// Update VERSION to pick a specific hugo version.
 			// Example versions: latest, 0.73.0, 0,71.1
 			// Rebuild the container if it already exists to update.
-			"VERSION": "0.92.0",
+			"VERSION": "0.101.0",
 			// Update NODE_VERSION to pick the Node.js version: 12, 14
-			"NODE_VERSION": "16",
+			"NODE_VERSION": "16"
 		}
 	},
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"html.format.templating": true,
+		"html.format.templating": true
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
