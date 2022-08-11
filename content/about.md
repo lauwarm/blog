@@ -28,7 +28,7 @@ Got a few Tours on my Bucket List which needs crossing out.
 
 I use Github, Instagram, Twitter. I have a Twitch Account too.
 
-I do have a cosy Place for all my [Social Links](https://mugenbatscha.me).
+I do have a cozy Place for all my [Social Links](https://mugenbatscha.me).
 
 ## DM me
 
