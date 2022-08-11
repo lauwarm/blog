@@ -6,49 +6,27 @@ draft: false
 tags: ["post"]
 ---
 
-# Heading
-This is a sample Post copy 2
+## Purpose
 
-> The secret to creativity is knowing how to hide your sources. 
-> &mdash; <cite>[Albert Einstein][1]</cite>
+This Post demonstrates how Markdown is rendered on this Website.
 
-[1]: http://www.quotedb.com/quotes/2112
+## Headings
 
+# ATX style H1
 
-![image alt text](/images/posts/20210810-allOfTheMarkdown/1.webp)
+## ATX style H2
 
-Lorem ipsum dolor sit amet, consectetur...
+### ATX style H3
 
-## What is Lorem Ipsum?
-In mollis cursus ligula, et venenatis neque maximus ut...
+#### ATX style H4
 
-Vivamus ut tincidunt urna. Nam eu mollis dolor...
+# Closed ATX style H1 #
 
-## In mollis cursus ligula
-Etiam et ligula sit amet urna aliquam suscipit...
+## Closed ATX style H1 ##
 
-- Cras dui nulla,
-- ornare eget fermentum quis, 
-- accumsan vitae purus.
+### Closed ATX style H1 ###
 
-Nam eget pharetra arcu. Cras dui nulla, ornare eget...
-
-### Nullam a risus maximus
-Fusce facilisis non ante quis blandit...
-
-### Donec vel accumsan justo
-Maecenas eu libero ac justo tempor pellentesque...
-
----
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
+#### Closed ATX style H1 ####
 
 Alt-H1
 ======
@@ -56,82 +34,114 @@ Alt-H1
 Alt-H2
 ------
 
----
+## Quotes
 
+> The secret to creativity is knowing how to hide your sources. 
+> &mdash; [Albert Einstein][1]
 
+[1]: http://www.quotedb.com/quotes/2112
+
+## Images
+
+![image alt text](/images/posts/20210810-allOfTheMarkdown/1.webp)
+
+## Bold Text
 
 **This is bold text**
 
+## Italic Text
+
 *This text is italicized*
+
+## Crossed Text
 
 ~~This was mistaken text~~
 
+## Bold and Italic Text
+
 **This text is _extremely_ important**
+
+## All Bold and Italic Text
 
 ***All this text is important***
 
----
-
-Quoting text:
-
-In the words of Abraham Lincoln:
-
-> Pardon my French
-
----
-
-Quoting code:
+## Quoting code
 
 Some basic Git commands are:
-```
+
+```git
 git status
 git add
 git commit
 ```
 
----
-
-Links:
+## Links
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
----
+[I'm an inline-style link](https://example.com/)
 
-Lists:
+[I'm an inline-style link with title](https://example.com/ "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links.
+https://example.com/ or <https://example.com/> and sometimes example.com (but not on Github, for example).
+
+[arbitrary case-insensitive reference text]: https://example.com/
+[1]: https://example.com/
+[link text itself]: https://example.com/
+
+## Lists
 
 - George Washington
 - John Adams
 - Thomas Jefferson
 
+* Unordered list can use asterisks
+
+- Minuses
+
++ Pluses
+
 1. James Madison
 2. James Monroe
 3. John Quincy Adams
 
----
+1. First ordered list item
+2. Another item
+   * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+4. And another item.
 
-Nested Lists:
+## Nested Lists
 
 1. First list item
    - First nested list item
      - Second nested list item
 
----
-
-Task lists:
+## Task lists
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
----
 
-Ignoring Markdown formatting:
+
+
+
+## Ignoring Markdown formatting
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
----
-
-Creating a table:
+## Creating a table
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -158,62 +168,19 @@ Creating a table:
 | Backtick | `         |
 | Pipe     | \|        |
 
----
+## Logo
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+Inline-style (hover to see the title text)
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+![alt text](images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 1")
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+Reference-style (hover to see the title text)
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
----
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
----
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 2"
 
----
+## Inline Code
 
 Inline `code` has `back-ticks around` it.
 
@@ -226,20 +193,11 @@ alert(s);
 s = "Python syntax highlighting"
 print s
 ```
- 
+
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
 ```
-
-var s = "JavaScript syntax highlighting";
-alert(s);
-
-s = "Python syntax highlighting"
-print s
-
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
 
 Colons can be used to align columns.
 
