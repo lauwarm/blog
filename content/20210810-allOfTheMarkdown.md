@@ -182,13 +182,13 @@ Markdown | Less | Pretty
 
 Inline-style (hover to see the title text)
 
-![alt text](images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 1")
+![alt text](/images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 1")
 
 Reference-style (hover to see the title text)
 
 ![alt text][logo]
 
-[logo]: images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 2"
+[logo]: /images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 2"
 
 ## Inline Code
 
