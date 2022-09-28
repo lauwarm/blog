@@ -1,6 +1,6 @@
 baseURL = "https://blog.mugenbatscha.me"
 languageCode = "en-us"
-title = "mugenbatscha"
+title = "Fabian's Blog"
 theme = "mugenbatscha"
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
