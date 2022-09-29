@@ -4,7 +4,7 @@
   "description": "My Blog - Build with Hugo - Served by Ionos",
   "main": "tailwind.config.js",
   "dependencies": {
-    "acorn-node": "^1.8.2",
+    "acorn-node": "^2.0.1",
     "anymatch": "^3.1.2",
     "braces": "^3.0.2",
     "color-string": "^1.6.0",
