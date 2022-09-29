@@ -23,7 +23,7 @@
     "lodash.toarray": "^4.4.0",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.4",
-    "minimatch": "^3.0.4",
+    "minimatch": "^5.1.0",
     "minimist": "^1.2.5",
     "node-releases": "^2.0.6",
     "normalize-path": "^3.0.0",
