@@ -30,7 +30,7 @@
     "once": "^1.4.0",
     "parent-module": "^1.0.1",
     "parse-json": "^5.2.0",
-    "path-is-absolute": "^1.0.1",
+    "path-is-absolute": "^2.0.0",
     "path-parse": "^1.0.7",
     "path-type": "^4.0.0",
     "picomatch": "^2.3.0",
