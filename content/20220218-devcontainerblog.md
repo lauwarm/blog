@@ -8,12 +8,12 @@ tags: ["dev container", "blog", "docker"]
 
 ## Information used in this Post
 
-- https://docs.docker.com/desktop/dev-environments/
-- https://aarynsmith.com/posts/hugo-vscode-docker/
-- https://zerokspot.com/weblog/2020/07/15/development-containers-with-visual-studio-code/
-- https://discourse.gohugo.io/t/windows-permissions-error-copying-static-files/30676
-- https://github.com/microsoft/vscode-remote-release/issues/72
-- https://github.com/diablodale/pinentry-wsl-ps1
+- [Docker Docs - Dev Environments](https://docs.docker.com/desktop/dev-environments/)
+- [Hugo + VSCode + Docker = ❤️](https://aarynsmith.com/posts/hugo-vscode-docker/)
+- [Development containers with Visual Studio Code](https://zerokspot.com/weblog/2020/07/15/development-containers-with-visual-studio-code/)
+- [Windows Permissions Error copying static files](https://discourse.gohugo.io/t/windows-permissions-error-copying-static-files/30676)
+- [GPG Sign Commit when running in DevContainer](https://github.com/microsoft/vscode-remote-release/issues/72)
+- [Github - pinentry-wsl-ps1](https://github.com/diablodale/pinentry-wsl-ps1)
 
 ## Purpose
 
