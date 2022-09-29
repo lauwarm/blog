@@ -34,7 +34,7 @@
     "path-parse": "^1.0.7",
     "path-type": "^5.0.0",
     "picomatch": "^2.3.0",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^10.0.0",
     "postcss-selector-parser": "^6.0.6",
     "queue-microtask": "^1.2.3",
     "readdirp": "^3.6.0",
