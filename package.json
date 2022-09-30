@@ -19,7 +19,7 @@
     "json-parse-even-better-errors": "^2.3.1",
     "jsonfile": "^6.1.0",
     "lilconfig": "^2.0.3",
-    "lines-and-columns": "^1.1.6",
+    "lines-and-columns": "^2.0.3",
     "lodash.toarray": "^4.4.0",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.4",
