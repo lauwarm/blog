@@ -1,11 +1,11 @@
 # Update the NODE_VERSION arg in docker-compose.yml to pick a Node version: 10, 12, 14
 ARG NODE_VERSION=16
-FROM --platform=linux/amd64 mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${NODE_VERSION}
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${NODE_VERSION}
 
 # VARIANT can be either 'hugo' for the standard version or 'hugo_extended' for the extended version.
 ARG VARIANT=hugo_extended
 # VERSION can be either 'latest' or a specific version number
-ARG VERSION=v0.101.0
+ARG VERSION=v0.104.2
 
 # Download Hugo
 RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
@@ -17,12 +17,12 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
     echo ${VERSION} && \
     case $(uname -m) in \
     aarch64) \
-    export ARCH=ARM64 ;; \
+    export ARCH=linux-ARM64 ;; \
     *) \
-    export ARCH=64bit ;; \
+    export ARCH=Linux-64bit ;; \
     esac && \
     echo ${ARCH} && \
-    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_Linux-64bit.tar.gz && \
+    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_${ARCH}.tar.gz && \
     tar xf ${VERSION}.tar.gz && \
     mv hugo /usr/bin/hugo
 
