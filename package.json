@@ -16,7 +16,7 @@
     "import-fresh": "^3.3.0",
     "inflight": "^1.0.6",
     "js-tokens": "^8.0.0",
-    "json-parse-even-better-errors": "^2.3.1",
+    "json-parse-even-better-errors": "^3.0.0",
     "jsonfile": "^6.1.0",
     "lilconfig": "^2.0.3",
     "lines-and-columns": "^2.0.3",
