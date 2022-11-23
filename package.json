@@ -36,7 +36,7 @@
     "picomatch": "^2.3.0",
     "postcss": "^8.4.19",
     "postcss-cli": "^10.0.0",
-    "postcss-selector-parser": "^6.0.6",
+    "postcss-selector-parser": "^6.0.11",
     "queue-microtask": "^1.2.3",
     "readdirp": "^3.6.0",
     "resolve-from": "^5.0.0",
