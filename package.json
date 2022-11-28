@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My Blog - Build with Hugo - Served by Ionos",
   "main": "tailwind.config.js",
+  "engines": {
+    "node": "14.19.1"
+  },
   "dependencies": {
     "acorn-node": "^2.0.1",
     "anymatch": "^3.1.2",
