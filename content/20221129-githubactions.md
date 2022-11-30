@@ -2,7 +2,7 @@
 title: "Oryx has failed to build the solution"
 image: ""
 date: 2022-11-29T08:01:30Z
-draft: true
+draft: false
 tags: ["docker", "azure", "github action", "blog", "development"]
 ---
 
