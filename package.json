@@ -38,7 +38,7 @@
     "path-type": "^5.0.0",
     "picomatch": "^2.3.0",
     "postcss": "^8.4.19",
-    "postcss-cli": "^10.0.0",
+    "postcss-cli": "^10.1.0",
     "postcss-selector-parser": "^6.0.11",
     "queue-microtask": "^1.2.3",
     "readdirp": "^3.6.0",
@@ -58,7 +58,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
-    "postcss-cli": "^10.0.0",
+    "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.2.4"
   },
   "scripts": {
