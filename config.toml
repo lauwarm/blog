@@ -66,3 +66,6 @@ disableKinds = ['taxonomy', 'term']
     url = "https://twitch.tv/mugenbatscha"
     pre = "twitch"
     weight = 9
+
+[markup.goldmark.renderer]
+  unsafe= true
