@@ -28,11 +28,11 @@ enableRobotsTXT = true
     pre = "user"
     url = "/about/"
     weight = 1
-  [[menu.main]]
-    name = "Impressum Placeholder"
-    pre = "info"
-    url = "/impressum/"
-    weight = 2
+#  [[menu.main]]
+#    name = "Impressum Placeholder"
+#    pre = "info"
+#    url = "/impressum/"
+#    weight = 2
   [[menu.main]]
     name = "Tags"
     pre = "tag"
