@@ -3,10 +3,11 @@ languageCode = "en-us"
 title = "Fabian's Blog"
 theme = "mugenbatscha"
 enableRobotsTXT = true
-disableKinds = ['taxonomy', 'term']
+# disableKinds = ['taxonomy', 'term']
 
 [taxonomies]
   tag = "tags"
+  category = "categories"
 
 [author]
   name = "Fabian"
@@ -27,45 +28,54 @@ disableKinds = ['taxonomy', 'term']
     pre = "user"
     url = "/about/"
     weight = 1
-#  [[menu.main]]
-#    name = "Tags"
-#    pre = "tag"
-#    url = "/tags/"
-#    weight = 2
+  [[menu.main]]
+    name = "Impressum Placeholder"
+    pre = "info"
+    url = "/impressum/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
   [[menu.main]]
     name = "RSS"
     pre = "rss"
     url = "/index.xml"
     weight = 4
-#  [[menu.main]]
-#    name = "Impressum Placeholder"
-#    pre = "info"
-#    url = "https://example.org"
-#    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    pre = "globe"
+    url = "/posts"
+    weight = 5
+
 
   [[menu.social]]
-    name = "twitter"
+    name = "Twitter"
     url = "https://twitter.com/mugenbatscha"
     pre = "twitter"
     weight = 6
 
   [[menu.social]]
-    name = "instagram"
+    name = "Instagram"
     url = "https://www.instagram.com/mugenbatscha/"
     pre = "instagram"
     weight = 7
 
   [[menu.social]]
-    name = "github"
+    name = "Github"
     url = "https://github.com/lauwarm"
     pre = "github"
     weight = 8
 
   [[menu.social]]
-    name = "twitch"
+    name = "Twitch"
     url = "https://twitch.tv/mugenbatscha"
     pre = "twitch"
     weight = 9
 
-[markup.goldmark.renderer]
-  unsafe= true
+#  [[menu.social]]
+#    name = "Komoot"
+#    url = "https://www.komoot.de/user/435509273062"
+#    pre = ""
+#    weight = 10

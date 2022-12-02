@@ -1,6 +1,6 @@
 ---
 title: "All of the Markdown"
-image: "images/posts/20210810-allOfTheMarkdown/1.webp"
+image: "/posts/images/posts/20210810-allOfTheMarkdown/1.webp"
 date: 2021-08-10T17:55:39+02:00
 draft: false
 tags: ["post"]
@@ -44,7 +44,7 @@ Alt-H2
 
 ## Images
 
-![image alt text](/images/posts/20210810-allOfTheMarkdown/1.webp)
+![image alt text](/posts/images/posts/20210810-allOfTheMarkdown/1.webp)
 
 ## Bold Text
 
@@ -182,13 +182,13 @@ Markdown | Less | Pretty
 
 Inline-style (hover to see the title text)
 
-![alt text](/images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 1")
+![alt text](/posts/images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 1")
 
 Reference-style (hover to see the title text)
 
 ![alt text][logo]
 
-[logo]: /images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 2"
+[logo]: /posts/images/posts/20210810-allOfTheMarkdown/logo-24.png "Logo Title Text 2"
 
 ## Inline Code
 

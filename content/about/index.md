@@ -4,6 +4,7 @@ date: 2021-08-01T11:41:14+02:00
 image: "images/about/1.webp"
 draft: false
 tags: ["about", "contact", "email"]
+special: "about"
 ---
 
 ## Welcome
