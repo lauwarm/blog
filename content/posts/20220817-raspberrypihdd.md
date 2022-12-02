@@ -26,7 +26,7 @@ We use _Raspberry PI Imager_ to write the _Raspbian OS Lite_ to the micro SD Car
 First we select the Image, which we downloaded beforehand. We select the micro SD Card. Make sure its the correct one. The selected Device will be formatted.
 
 Raspberry Pi Imager has an advanced tab. In here we will enable SSH and wireless LAN.
-![Raspberry Pi Imager Advanced Settings](/images/posts/20220817-raspberrypihdd/2.webp)
+![Raspberry Pi Imager Advanced Settings](/posts/images/posts/20220817-raspberrypihdd/2.webp)
 Then we click _SAVE_.
 
 Now we can press _WRITE_. This will take some time.
