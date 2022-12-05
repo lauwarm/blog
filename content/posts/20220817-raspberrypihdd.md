@@ -115,4 +115,4 @@ I encountered a problem with multiple HDDs on my Raspberry Pi 3. It seems more t
 A low power alternative to fill HDDs with zeros. Multiple HDDs don’t seem to work. Depending on the type of HDD technology the process can be really slow.
 
 At Last, a picture of my overwriting setup.
-![Raspberry Pi and external HDD](/images/posts/20220817-raspberrypihdd/1.webp)
+![Raspberry Pi and external HDD](/posts/images/posts/20220817-raspberrypihdd/1.webp)
