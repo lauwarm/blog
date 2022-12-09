@@ -1,10 +1,10 @@
 ---
-title: "Posts Page"
+title: "Diary"
 date: 2021-08-06T11:41:14+02:00
 draft: false
 tags: ["posts"]
 ---
 
-# Posts
+## Diary
 
-This is a Posts Page.
+The Diary.
