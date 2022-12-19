@@ -28,7 +28,7 @@
     "micromatch": "^4.0.4",
     "minimatch": "^5.1.1",
     "minimist": "^1.2.7",
-    "node-releases": "^2.0.7",
+    "node-releases": "^2.0.8",
     "normalize-path": "^3.0.0",
     "once": "^1.4.0",
     "parent-module": "^3.0.0",
