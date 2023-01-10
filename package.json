@@ -55,7 +55,7 @@
     "xtend": "^4.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.8",
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
     "postcss-cli": "^10.1.0",
