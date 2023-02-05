@@ -1,5 +1,5 @@
 baseURL = "https://mugenbatscha.me"
-languageCode = "en-us"
+languageCode = "en-uk"
 title = "Fabian's Blog"
 theme = "mugenbatscha"
 enableRobotsTXT = true
@@ -50,31 +50,26 @@ relativeURLs=true
     url = "/posts"
     weight = 5
 
-
   [[menu.social]]
     name = "Twitter"
     url = "https://twitter.com/mugenbatscha"
     pre = "twitter"
     weight = 6
-
   [[menu.social]]
     name = "Instagram"
     url = "https://www.instagram.com/mugenbatscha/"
     pre = "instagram"
     weight = 7
-
   [[menu.social]]
     name = "Github"
     url = "https://github.com/lauwarm"
     pre = "github"
     weight = 8
-
   [[menu.social]]
     name = "Twitch"
     url = "https://twitch.tv/mugenbatscha"
     pre = "twitch"
     weight = 9
-
 #  [[menu.social]]
 #    name = "Komoot"
 #    url = "https://www.komoot.de/user/435509273062"
