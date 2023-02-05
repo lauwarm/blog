@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "engines": {
     "node": "14.19.1",
-    "npm": "8.19.3"
+    "npm": "6.14.16"
   },
   "dependencies": {
     "acorn-node": "^2.0.1",
